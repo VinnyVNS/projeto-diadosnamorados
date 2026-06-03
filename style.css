@@ -3,13 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
 }
 body{
     display: flex;
     flex-direction: column;
 }
 header{
-    background-color: black;
+    background-color: rgb(255, 0, 200);
     padding: 20px;
     position: sticky;
     top: 0;
@@ -25,9 +26,11 @@ nav{
 nav .logo{
     color: white;
     font-size: 30px;
+    font-weight: bold;
 }
 nav ul{
     display: flex;
+    list-style: none;
     gap: 20px;
 }
 nav ul a{
@@ -40,9 +43,47 @@ nav ul a:hover{
     color: aqua;
 }
 #galeria{
+    background-color: rgb(255, 0, 200);
     text-align: center;
+    margin: 100px;
+    border: black solid 5px;
+}
+#galeria h2{
+    color: white;
+    margin: 10px;
+}
+.img-clicavel{
+    margin: 5px;
+}
+.img-clicavel:hover{
+    transform: scale(1.05) rotate(1000000000deg);
+    transition: 90s;
+    box-shadow: rgb(40, 40, 40) 0px 0px 8px;
 }
 #mensagem{
     width: 1000px;
     height: 100px;
+}
+footer{
+    background-color: rgb(255, 0, 200);
+}
+.btn1{
+    display: grid;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 20px;
+    border: black solid 2px;
+    background-color: rgb(255, 0, 200);
+    color: white;
+    font-style: italic;
+}
+.btn1:hover{
+    background-color: rgb(120, 0, 200);
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: rgb(40, 40, 40) 0px 0px 8px;
 }
