@@ -56,8 +56,8 @@ nav ul a:hover{
     margin: 5px;
 }
 .img-clicavel:hover{
-    transform: scale(1.05) rotate(1000000000deg);
-    transition: 90s;
+    transform: scale(1.05);
+    transition: 0.3s;
     box-shadow: rgb(40, 40, 40) 0px 0px 8px;
 }
 #mensagem{
