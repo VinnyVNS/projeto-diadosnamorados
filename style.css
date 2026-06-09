@@ -60,13 +60,43 @@ nav ul a:hover{
     transition: 0.3s;
     box-shadow: rgb(40, 40, 40) 0px 0px 8px;
 }
+
+
+
 #mensagem{
     width: 1000px;
     height: 100px;
 }
 footer{
     background-color: rgb(255, 0, 200);
+    display: flex;
+    border-top: 3px solid black;
 }
+
+footer #contato{
+    margin-left: 1%;
+}
+
+footer .contato-info{
+    box-sizing: border-box;
+    align-items: center;
+    padding: 5px;
+}
+
+footer .form-group{
+    display: contents;
+}
+
+footer .contato-text{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+footer .form-text{
+    font-size: 20px;
+}
+
 .btn1{
     display: grid;
     margin: auto;
