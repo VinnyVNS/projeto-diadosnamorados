@@ -9,31 +9,38 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Dia dos Namorilsons❤️</div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#galeria">Galeria</a></li>
-                <li><a href="#contato">Contato</a></li>
+            <div class="logo">❤️Dia dos Namorados❤️</div>
+            <ul class="navegacao">
+                <li><a class="navTexto" href="#home">Home</a></li>
+                <li><a class="navTexto" href="#galeria">Galeria</a></li>
+                <li><a class="navTexto" href="#contato">Contato/Sobre</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <button class="btn1">Namorilson</button>
+    <main id="home">
+        <section id="fraseNamorilson">
+            <button onclick="namorilson()" id="btn-namorilson" class="btn1">Meu amor por você</button>
+            <div id="fraseRandom"></div>
+        </section>
+
         <section id="galeria">
-            <h2>Nossa Galeria</h2>
+            <h2>📷Galeria📷</h2>
             <div class="galeria">
                 <div class="galeria-item">
-                    <img src="https://picsum.photos/400/400?radom=1" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=2" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=3" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=4" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=5" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=6" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=7" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=8" class="img-clicavel">
-                    <img src="https://picsum.photos/400/400?radom=9" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2019/01/10/19/36/frame-3925925_1280.jpg" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2024/01/29/08/54/hot-air-balloon-8539287_1280.png" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/01/10/55/heart-8545742_1280.jpg" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2023/01/23/15/04/couple-7738917_1280.png" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2023/01/22/23/59/couple-7737589_1280.png" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2020/04/11/01/14/couple-5028351_1280.jpg" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2023/02/10/07/59/fox-7780326_1280.jpg" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2023/02/02/13/27/cat-7762887_1280.jpg" class="img-clicavel">
+                    <img src="https://cdn.pixabay.com/photo/2021/01/26/14/30/rose-5951728_1280.jpg" class="img-clicavel">
                 </div>
+            </div>
+            <div id="overlay">
+                <img id="imagemGrande" src="" alt="Imagem ampliada">
             </div>
         </section>
     </main>
@@ -66,6 +73,11 @@
             </div>
             <p>&copy; 2026</p>
         </section> 
+
+        <section id="sobre">
+            <h2><strong>Sobre</strong></h2>
+            <p>Um site especial sobre o dia dos namorados, feito para um projeto de curso.</p>
+        </section>
     </footer>
 
     <script src="script.js"></script>
